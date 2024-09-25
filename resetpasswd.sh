@@ -67,8 +67,10 @@ fi
 if ask_yes_no "是否要重启SSH服务？"; then
     if command -v systemctl >/dev/null 2>&1; then
         sudo systemctl restart sshd
+        sudo systemctl restart ssh
     else
         sudo service sshd restart
+        sudo service ssh restart
     fi
     echo "SSH服务已重启。"
 fi
