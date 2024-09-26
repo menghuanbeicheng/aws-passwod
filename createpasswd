@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo sed -i.bak '/^SELINUX=/cSELINUX=disabled' /etc/sysconfig/selinux;
 sudo sed -i.bak '/^SELINUX=/cSELINUX=disabled' /etc/selinux/config;
 sudo setenforce 0;
