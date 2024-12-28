@@ -8,7 +8,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/menghuanbeichen
 
 HttpProxy
 
-wget -N --no-check-certificate https://raw.githubusercontent.com/menghuanbeicheng/aws-passwod/refs/heads/main/httpPrxoy.sh && bash httpPrxoy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/menghuanbeicheng/aws-passwod/refs/heads/main/httpPrxoy.sh && bash httpPrxoy.sh username password
 
 # 查看服务状态
 sudo systemctl status httpproxy
