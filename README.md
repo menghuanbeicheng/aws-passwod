@@ -7,9 +7,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/menghuanbeichen
 查看createpasswd的内容将rootpasswd修改为自己密码
 
 HttpProxy
-
+```shell
 wget -N --no-check-certificate https://raw.githubusercontent.com/menghuanbeicheng/aws-passwod/refs/heads/main/httpPrxoy.sh && bash httpPrxoy.sh username password
-
+```
 # 查看服务状态
 sudo systemctl status httpproxy
 
